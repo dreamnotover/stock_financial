@@ -1,6 +1,7 @@
 # stock_financial
 爬取网易A股财报数据，并使用不断更换代理ip的方式绕过百度反爬虫策略。
 由于抓取财报数据一定要完整抓取，在抓取失败后不断更换代理抓取。
+次爬虫还需要优化的部分是：当抓取的代理数目减少到一定数量时应该重新抓取代理，没时间优化，实践中直接改写stock——list
 主要程序163_data_download.py
 抓取代理程序ip_pool.py，与参考程序不一样之处在于使用了chrome driver，注意执行文件地址D:\\chromedriver.exe，此文件需要
 下载，因为好多代理网站用urllib、request取不到内容。
