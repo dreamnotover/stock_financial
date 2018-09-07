@@ -1,7 +1,7 @@
 # encoding: utf-8
 import shutil
 
-__author__ = 'airsen'
+__author__ = 'wenhua'
 import os
 import csv
 import re
