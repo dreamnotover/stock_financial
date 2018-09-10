@@ -49,10 +49,18 @@ for n in range(1,int(max_page)+1):
             #win不能创建带？的目录
             if(os.path.exists(path+title.strip().replace('?',''))):
                     #print('目录已存在')
+                    continue
                     flag=1
             else:
-                os.makedirs(path+title.strip().replace('?',''))
-                flag=0
+                try: 
+                    os.makedirs(path+title.strip().replace('?',''))
+                    flag=0
+                except Exception as e:
+                    print ("创建目录失败！" +  str(e))
+                    continue
+                finally:
+                    pass
+                     
             os.chdir(path + title.strip().replace('?',''))
             href = a['href']
             html = requests.get(href,headers = Hostreferer)
