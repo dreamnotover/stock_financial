@@ -48,8 +48,7 @@ for n in range(1,int(max_page)+1):
 
             #win不能创建带？的目录
             if(os.path.exists(path+title.strip().replace('?',''))):
-                    #print('目录已存在')
-                    continue
+                    #print('目录已存在')                   
                     flag=1
             else:
                 try: 
