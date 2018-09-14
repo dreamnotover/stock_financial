@@ -1,3 +1,4 @@
+
 # stock_financial
 爬取网易A股财报数据，并使用不断更换代理ip的方式绕过百度反爬虫策略。
 由于抓取财报数据一定要完整抓取，在抓取失败后不断更换代理抓取。
@@ -7,6 +8,8 @@
 下载，因为好多代理网站用urllib、request取不到内容。
 网易财报的的规则部分参考了另外一个源，但git地址找不到了，只能抱歉了。
 网易财报导入可通过读取文本文件后，将dataframe转置再插入，原来看到的源那一部分写得不好，但目前没时间改进，就先不做了。
+
+链接: https://pan.baidu.com/s/1zUaA4Q_sHs2lsI3Nb1_v0g 密码: c5xv
 
 def get_proxy_list2(self,url,url_xpath):
         '''
