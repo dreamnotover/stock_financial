@@ -7,7 +7,7 @@
 抓取代理程序ip_pool.py，与参考程序不一样之处在于使用了chrome driver，注意执行文件地址D:\\chromedriver.exe，此文件需要
 下载，因为好多代理网站用urllib、request取不到内容。
 网易财报的的规则部分参考了另外一个源，但git地址找不到了，只能抱歉了。
-网易财报导入可通过读取文本文件后，将dataframe转置再插入，原来看到的源那一部分写得不好，但目前没时间改进，就先不做了。
+网易财报导入可通过读取文本文件后，将dataframe转置再插入，原来看到的源那一部分写得不好，但目前没时间改进，就先不做了。如果对您能有点帮助，请star。
 
 链接: https://pan.baidu.com/s/1zUaA4Q_sHs2lsI3Nb1_v0g 密码: c5xv
 
